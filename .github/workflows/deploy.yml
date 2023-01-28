@@ -26,4 +26,5 @@ jobs:
         --application-name nodejs-express-app \
         --deployment-group-name test-second \
         --deployment-config-name CodeDeployDefault.OneAtATime \
-        --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
+        --github-location repository=${{ github.repository }},commitId=${{ github.sha }} \
+        --region ap-northeast-1
